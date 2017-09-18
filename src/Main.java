@@ -17,36 +17,46 @@ public class Main {
         System.out.println("Lets play!");
 
         System.out.println("Was Issa wrong for cheating on Lawrence? (Y/N)");
-        myAnswer=keyboard.next();
+        myAnswer = keyboard.next();
 
-        if(myAnswer =="Y"){
-            teamLawrence= teamLawrence + 1;
+        if (myAnswer == "Y") {
+            teamLawrence = teamLawrence + 1;
 
-        }else{
-            teamIssa = teamIssa +1;
+        } else {
+            teamIssa = teamIssa + 1;
         }
 
         System.out.println("Did Issa deserve to be called a hoe ?");
-        myAnswer=keyboard.next();
+        myAnswer = keyboard.next();
 
-        if(myAnswer =="N"){
-            teamIssa = teamIssa +1;
+        if (myAnswer == "N") {
+            teamIssa = teamIssa + 1;
 
-        }else{
-            teamIssa = teamIssa +1;
-            teamLawrence= teamLawrence + 1;
+        } else {
+            teamIssa = teamIssa + 1;
+            teamLawrence = teamLawrence + 1;
         }
 
         System.out.println("Did his joblessness make him depressed, and sap his initiative and his " +
                 "willingness to put any effort into being a good boyfriend?");
-        myAnswer=keyboard.next();
 
-        if(myAnswer =="Y"){
-            teamIssa = teamIssa +1;
+        myAnswer = keyboard.next();
 
-        }else{
-            teamLawrence= teamLawrence + 1;
+        if (myAnswer == "Y") {
+            teamIssa = teamIssa + 1;
+
+        } else {
+            teamLawrence = teamLawrence + 1;
         }
+
+
+        if (teamLawrence > teamIssa) {
+            System.out.println("Team Lawrence wins! Issa was wrong af!!");
+        } else {
+            System.out.println("Team Issa Wins! Lawrence is a fboy!");
+        }
+
+        keyboard.close();
     }
 
 }
