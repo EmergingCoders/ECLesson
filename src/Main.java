@@ -27,7 +27,7 @@ public class Main {
         }
 
         System.out.println("He broke up with his girlfriend after learning she cheated on him. " +
-                "moved all of his stuff out and had sex with a cute woman who’d been sweating him for months. Was he wrong");
+                "moved all of his stuff out and had sex with a cute woman who’d been sweating him for months. Was he wrong(Y/N)?");
         myAnswer = keyboard.nextLine();
 
         if (myAnswer == "Y") {
@@ -49,7 +49,7 @@ public class Main {
         }
 
         System.out.println("Did his joblessness make him depressed, and sap his initiative and his " +
-                "willingness to put any effort into being a good boyfriend?");
+                "willingness to put any effort into being a good boyfriend?(Y/N)");
 
         myAnswer = keyboard.next();
 
