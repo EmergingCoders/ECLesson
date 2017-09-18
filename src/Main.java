@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Lets play!");
 
         System.out.println("Was Issa wrong for cheating on Lawrence? (Y/N)");
-        myAnswer = keyboard.next();
+        myAnswer = keyboard.nextLine();
 
         if (myAnswer == "Y") {
             teamLawrence = teamLawrence + 1;
@@ -27,7 +27,7 @@ public class Main {
         }
 
         System.out.println("Did Issa deserve to be called a hoe ?");
-        myAnswer = keyboard.next();
+        myAnswer = keyboard.nextLine();
 
         if (myAnswer == "N") {
             teamIssa = teamIssa + 1;
