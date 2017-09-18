@@ -26,6 +26,17 @@ public class Main {
             teamIssa = teamIssa + 1;
         }
 
+        System.out.println("He broke up with his girlfriend after learning she cheated on him. " +
+                "moved all of his stuff out and had sex with a cute woman who’d been sweating him for months. Was he wrong");
+        myAnswer = keyboard.nextLine();
+
+        if (myAnswer == "Y") {
+            teamLawrence = teamLawrence + 1;
+
+        } else {
+            teamIssa = teamIssa + 1;
+        }
+
         System.out.println("Did Issa deserve to be called a hoe ?");
         myAnswer = keyboard.nextLine();
 
@@ -52,7 +63,11 @@ public class Main {
 
         if (teamLawrence > teamIssa) {
             System.out.println("Team Lawrence wins! Issa was wrong af!!");
-        } else {
+        }else if (teamIssa == teamLawrence){
+            System.out.println("They both full of shit ");
+        }
+
+        else {
             System.out.println("Team Issa Wins! Lawrence is a fboy!");
         }
 
